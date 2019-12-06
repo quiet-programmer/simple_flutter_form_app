@@ -12,6 +12,9 @@ class Home extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Simple Form App",
+      theme: ThemeData(
+        primaryColorBrightness: Brightness.dark,
+      ),
       home: Welcome(),
     );
   }
